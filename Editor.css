@@ -1,0 +1,60 @@
+/* Page background */
+.page {
+  background: #fff0f5; /* very light pink */
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* App name header */
+.app-header {
+  background: #ffe4ec; /* soft pastel pink */
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4b1032; /* dark pink for contrast */
+  border-bottom: 1px solid #f5c6d4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Editor container */
+.editor-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Quill editor */
+#editor {
+  background: #ffffff; /* white editor box */
+  width: 80%;
+  min-height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  padding: 12px 15px;
+  color: #4b1032; /* text in dark pink */
+  font-size: 16px;
+}
+
+/* Toolbar styling */
+.ql-toolbar {
+  border-radius: 12px 12px 0 0;
+  background: #ffe4ec; /* light pink toolbar */
+  border: 1px solid #f5c6d4;
+}
+
+/* Editor container border */
+.ql-container {
+  border-radius: 0 0 12px 12px;
+  border: 1px solid #f5c6d4;
+}
+
+/* Quill placeholder */
+.ql-editor.ql-blank::before {
+  color: #d8a3b5; /* soft pink placeholder */
+  font-style: italic;
+}
+
+/* Toolbar button hover effect */
+.ql-toolbar button:hover {
+  background-color: #ffd1e0; /* subtle pink highlight */
+}
