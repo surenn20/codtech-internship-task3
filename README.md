@@ -1,3 +1,4 @@
+
 # codtech-internship-task3
 
 COMPANY:CODTECH IT SOLUTIONS
@@ -32,3 +33,5 @@ Overall, Task-3 was a challenging but highly rewarding experience. It helped me 
 
 
 #OUTPUT
+
+<img width="1279" height="766" alt="Image" src="https://github.com/user-attachments/assets/5560638f-3a5e-408f-b768-342f8326555e" />
